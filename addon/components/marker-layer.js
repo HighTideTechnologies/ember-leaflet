@@ -271,7 +271,7 @@ export default class MarkerLayer extends InteractiveLayer {
 
           if (enabled) {
             layer.dragging.enable();
-          } else if (layer.dragging) {
+          } else {
             layer.dragging.disable();
           }
         }
